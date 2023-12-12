@@ -227,13 +227,30 @@ class PeerGateway extends ConnectorBase {
             const contracts = this.connectorConfiguration.getContractDefinitionsForChannelName(channel);
 
             for (const contract of contracts) {
-                const networkContract = network.getContract(contract.id);
+                const { chaincodeName, contractName } = this._detectContractName(
+                    contract.id
+                );
+                const networkContract = network.getContract(chaincodeName, contractName);
                 contractMap.set(`${channel}_${contract.id}`, networkContract);
             }
         }
         logger.debug('Exiting _createChannelAndChaincodeIdToContractMap');
 
         return contractMap;
+    }
+
+    /**
+     * Check if contract name is exist together with chaincode name
+     * @param {string} name The name that include chaincode name and contract name, example: "ledger:contractName"
+     * @returns {string} returns chaincode name and contract name
+     */
+    _detectContractName(name) {
+        if (name.includes(":")) {
+            const info = name.split(":");
+            return { chaincodeName: info[0], contractName: info[1] };
+        } else {
+            return { chaincodeName: name, contractName: undefined };
+        }
     }
 
     /**
