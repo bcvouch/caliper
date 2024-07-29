@@ -30,7 +30,6 @@
     "bugs": {
         "url": "https://github.com/hyperledger/caliper/issues"
     },
-    "homepage": "https://github.com/hyperledger/caliper#readme",
     "devDependencies": {
         "license-check-and-add": "2.3.6"
     },
