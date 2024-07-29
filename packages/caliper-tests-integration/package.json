@@ -38,7 +38,6 @@
         "@hyperledger/caliper-core": "https://gitpkg.vercel.app/bcvouch/caliper/packages/caliper-core?main",
         "@hyperledger/caliper-ethereum": "https://gitpkg.vercel.app/bcvouch/caliper/packages/caliper-ethereum?main",
         "@hyperledger/caliper-fabric": "https://gitpkg.vercel.app/bcvouch/caliper/packages/caliper-fabric?main",
-        "@hyperledger/caliper-fisco-bcos": "https://gitpkg.vercel.app/bcvouch/caliper/packages/caliper-fisco-bcos?main",
         "yeoman-generator": "4.7.2",
         "yosay": "^2.0.1"
     },
