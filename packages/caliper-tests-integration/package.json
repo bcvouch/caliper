@@ -1,10 +1,10 @@
 {
     "name": "caliper-tests-integration",
-    "version": "0.5.1-unstable",
+    "version": "0.6.1-unstable",
     "private": true,
     "description": "Integration tests for Hyperledger Caliper",
     "engines": {
-        "node": ">=14.19.0",
+        "node": ">=18.19.0",
         "npm": ">=6.14.16"
     },
     "scripts": {
@@ -35,11 +35,10 @@
         "license-check-and-add": "2.3.6"
     },
     "dependencies": {
-        "@hyperledger/caliper-cli": "0.5.1-unstable",
-        "@hyperledger/caliper-core": "0.5.1-unstable",
-        "@hyperledger/caliper-ethereum": "0.5.1-unstable",
-        "@hyperledger/caliper-fabric": "0.5.1-unstable",
-        "@hyperledger/caliper-fisco-bcos": "0.5.1-unstable",
+        "@hyperledger/caliper-cli": "0.6.1-unstable",
+        "@hyperledger/caliper-core": "0.6.1-unstable",
+        "@hyperledger/caliper-ethereum": "0.6.1-unstable",
+        "@hyperledger/caliper-fabric": "0.6.1-unstable",
         "yeoman-generator": "4.7.2",
         "yosay": "^2.0.1"
     },
@@ -81,12 +80,6 @@
             "besu_tests/.gitignore",
             "besu_tests/config/data",
             "besu_tests/config/keys",
-            "fisco-bcos_tests/.gitignore",
-            "fisco-bcos_tests/config/node0",
-            "fisco-bcos_tests/config/node1",
-            "fisco-bcos_tests/config/node2",
-            "fisco-bcos_tests/config/node3",
-            "fisco-bcos_tests/config/sdk",
             "generator_tests/.gitignore",
             "generator_tests/fabric/.gitignore",
             "generator_tests/fabric/config/.gitignore",

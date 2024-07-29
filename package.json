@@ -1,7 +1,7 @@
 {
     "name": "caliper",
     "description": "Performance benchmarking for Hyperledger blockchain technologies.",
-    "version": "0.5.1-unstable",
+    "version": "0.6.1-unstable",
     "repository": {
         "type": "git",
         "url": "https://github.com/hyperledger/caliper"
@@ -14,7 +14,7 @@
         "force-clean": "./scripts/force-clean.sh"
     },
     "engines": {
-        "node": ">=14.19.0",
+        "node": ">=18.19.0",
         "npm": ">=7.24.2"
     },
     "dependencies": {},
@@ -76,12 +76,9 @@
         "packages/caliper-core",
         "packages/caliper-ethereum",
         "packages/caliper-fabric",
-        "packages/caliper-fisco-bcos",
         "packages/caliper-cli",
         "packages/caliper-publish",
         "packages/caliper-tests-integration",
-        "packages/caliper-gui-dashboard",
-        "packages/caliper-gui-server",
         "packages/generator-caliper"
     ]
 }
