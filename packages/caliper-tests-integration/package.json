@@ -35,11 +35,11 @@
         "license-check-and-add": "2.3.6"
     },
     "dependencies": {
-        "@hyperledger/caliper-cli": "git+https://gitpkg.vercel.app/bcvouch/caliper/packages/caliper-cli?main",
-        "@hyperledger/caliper-core": "git+https://gitpkg.vercel.app/bcvouch/caliper/packages/caliper-core?main",
-        "@hyperledger/caliper-ethereum": "git+https://gitpkg.vercel.app/bcvouch/caliper/packages/caliper-ethereum?main",
-        "@hyperledger/caliper-fabric": "git+https://gitpkg.vercel.app/bcvouch/caliper/packages/caliper-fabric?main",
-        "@hyperledger/caliper-fisco-bcos": "git+https://gitpkg.vercel.app/bcvouch/caliper/packages/caliper-fisco-bcos?main",
+        "@hyperledger/caliper-cli": "git+https://gitpkg.vercel.app/bcvouch/caliper/packages/caliper-cli",
+        "@hyperledger/caliper-core": "git+https://gitpkg.vercel.app/bcvouch/caliper/packages/caliper-core",
+        "@hyperledger/caliper-ethereum": "git+https://gitpkg.vercel.app/bcvouch/caliper/packages/caliper-ethereum",
+        "@hyperledger/caliper-fabric": "git+https://gitpkg.vercel.app/bcvouch/caliper/packages/caliper-fabric",
+        "@hyperledger/caliper-fisco-bcos": "git+https://gitpkg.vercel.app/bcvouch/caliper/packages/caliper-fisco-bcos",
         "yeoman-generator": "4.7.2",
         "yosay": "^2.0.1"
     },

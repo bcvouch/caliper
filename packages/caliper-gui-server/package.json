@@ -22,8 +22,8 @@
         "npm": ">=6.14.16"
     },
     "dependencies": {
-        "@hyperledger/caliper-core": "git+https://gitpkg.vercel.app/bcvouch/caliper/packages/caliper-core?main",
-        "@hyperledger/caliper-fabric": "git+https://gitpkg.vercel.app/bcvouch/caliper/packages/caliper-fabric?main",
+        "@hyperledger/caliper-core": "git+https://gitpkg.vercel.app/bcvouch/caliper/packages/caliper-core",
+        "@hyperledger/caliper-fabric": "git+https://gitpkg.vercel.app/bcvouch/caliper/packages/caliper-fabric",
         "chalk": "1.1.3",
         "cors": "^2.8.5",
         "express": "4.17.1",

@@ -23,7 +23,7 @@
     },
     "dependencies": {
         "@hapi/joi": "^15.1.1",
-        "@hyperledger/caliper-core": "git+https://gitpkg.vercel.app/bcvouch/caliper/packages/caliper-core?main",
+        "@hyperledger/caliper-core": "git+https://gitpkg.vercel.app/bcvouch/caliper/packages/caliper-core",
         "semver": "7.1.1"
     },
     "devDependencies": {
